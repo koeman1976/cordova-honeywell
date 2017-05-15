@@ -37,6 +37,12 @@ public class HoneywellScannerPlugin extends CordovaPlugin implements BarcodeRead
                 if(barcodeReader != null){
                     barcodeReader.addBarcodeListener(HoneywellScannerPlugin.this);
                     try {
+                        
+                        //Map<String, Object> properties = barcodeReader.getAllDefaultProperties();
+                        Map<String, Object> properties = new HashMap<String, Object>();
+                        properties.put(BarcodeReader.PROPERTY_CODE_128_ENABLED, true);
+                        properties.put(BarcodeReader.PROPERTY_QR_CODE_ENABLED, true);
+                        barcodeReader.setProperties(properties);
                         barcodeReader.claim();
                     } catch (ScannerUnavailableException e) {
                         e.printStackTrace();
