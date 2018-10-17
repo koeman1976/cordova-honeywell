@@ -4,9 +4,13 @@
         version="0.1.0">
     <name>HoneywellScanner</name>
     <description>Honeywell Scanner Plugin</description>
+     
+    <!-- 
     <engines>
         <engine name="cordova" version=">=3.0.0" />
     </engines>
+-->
+        
     <js-module src="www/honeywell.js" name="HoneywellScannerPlugin">
         <clobbers target="plugins.honeywell" />
     </js-module>
