@@ -3,7 +3,7 @@
     "name": "Fork by Juan Carlos Andreu"
   },
   "bugs": {
-    "url": "https://github.com/andreujuanc/cordova-honeywell/issues"
+    "url": "https://github.com/koeman1976/cordova-honeywell/issues"
   },
   "bundleDependencies": true,
   "cordova": {
@@ -23,7 +23,7 @@
       }
     }
   },
-  "homepage": "https://github.com/andreujuanc/cordova-honeywell",
+  "homepage": "https://github.com/koeman1976/cordova-honeywell",
   "keywords": [
     "cordova",
     "pointofservice",
@@ -34,7 +34,7 @@
   "name": "cordova-honeywell",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andreujuanc/cordova-honeywell.git"
+    "url": "git+https://github.com/koeman1976/cordova-honeywell.git"
   },
   "version": "1.0.0"
 }
